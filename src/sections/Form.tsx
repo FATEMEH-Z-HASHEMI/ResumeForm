@@ -105,7 +105,7 @@ function Form() {
       
 
   return (
-    <div className='w-[60%] md:w-[30%] bg-form rounded-2xl shadow-2xl p-6'>
+    <div data-testid="form" id="form" className='w-[60%] md:w-[30%] bg-form rounded-2xl shadow-2xl p-6'>
 
         <h1 className='text-3xl text-center mb-6'>
           Resume submission form
