@@ -209,6 +209,7 @@ function Form() {
               </h3>
               <input 
                   type="file"
+                  data-testid='file-input'
                   ref={fileInputRef}
                   className='hidden'
                   onChange={handleFileChangeUploadFiles}
