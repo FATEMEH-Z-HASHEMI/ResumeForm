@@ -6,7 +6,7 @@ import { FaTwitter , FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 function Home() {
   return (
     <div className='w-full h-screen flex flex-col justify-start items-center bg-bg bg-no-repeat bg-center bg-cover py-5'>
-
+      <h1>Hello</h1>
       <div className='flex flex-row items-center justify-between w-[70%] md:w-[50%]'>
         <span className='w-7 md:w-10 h-7 md:h-10 bg-form rounded-full shadow-lg'>
         </span>
